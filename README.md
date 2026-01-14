@@ -26,3 +26,9 @@ script requires some Blender specfic modules, so make sure that you open up Blen
 
 Once you have it setup, you can just click the play button to run the script and the mesh should render out. Sometimes there are 504 Gateway Timeout errors that arise, and is more of 
 an issue with the data source. If this happens, just wait for a little bit before trying to run the script again.
+
+Here are some basic latitude longitude coordinates that work fine and are representative of North Campus: 
+- 42.292055 -83.7147
+- 42.288915 -83.71501
+To get your own latitude longitude, you can go on google maps and right click on a location to get its latitude longitude coorindates.
+
