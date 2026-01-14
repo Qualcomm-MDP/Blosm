@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/mdpweb.egg-info/PKG-INFO
+src/mdpweb.egg-info/SOURCES.txt
+src/mdpweb.egg-info/dependency_links.txt
+src/mdpweb.egg-info/requires.txt
+src/mdpweb.egg-info/top_level.txt

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MDP Select Coordinates Pane</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div>
+        Type in the coordinates that you would like to generate a 3D model for:
+        <form action="{{ url_for('render_model') }}?target={{ request.path }}" method="post" enctype="multipart/form-data">
+            <input type="text" name="lat" placeholder="Latitude:" >
+            <input type="text" name="lon" placeholder="Longitdue:" >
+            <input type="submit" name="submit" value="Submit">
+        </form>
+
+        You can view the 3D mesh in website format by going to the following link: <a href="http://localhost:3000/" target="_blank">Render</a>
+    </div>
+</body>
+</html>
